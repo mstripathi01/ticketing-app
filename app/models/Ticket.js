@@ -19,6 +19,5 @@ const ticketSchema = new Schema(
 );
 
 const Ticket = mongoose.models.Ticket || mongoose.model("Ticket", ticketSchema);
-console.log("Ticketsss", Ticket);
 
 export default Ticket;
